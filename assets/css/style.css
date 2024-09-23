@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul { list-style: none; padding-left: 5px; }
+a { color:blue; text-decoration: none;}
+
+.logo {
+    text-align: center;
+    background-image: url(https://i.pinimg.com/564x/b8/dd/c7/b8ddc7edcbc108e6c838c1fb5269989c.jpg);
+    border: none;
+}
+
+.bar {
+    border: none;
+    background-color: #291305;
+    padding:15px;
+}
+
+.bar nav a {
+    padding: 5px 60px 5px 60px;
+    margin: 0 110px 0 110px;
+    border: 2px solid #407615;
+    color: #ffffff;
+    background-image: url(https://i.pinimg.com/564x/7c/2d/f5/7c2df5bb9adab2d99f5e7086c2cccb79.jpg);
+}
+
+.bar nav a:hover{
+    padding: 0 60px 0 60px;
+    border: 2px solid #29292b;
+    color: #ada3a1;
+    background-image: url( https://i.pinimg.com/564x/5e/78/68/5e7868c61e8ae310b79e72bbac0fc917.jpg);
+}
+
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.ttl{
+    font-family:'Press Start 2P';
+
+}
+
+.footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+}
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+figure {
+    text-align: center;
+}
+
+a {
+    color: #2f7b0a;
+    text-decoration-line: underline;
+}
+
+a:hover {
+    color: #2e1b0c;
+}
+
+.footer {
+    background-image: url(https://preview.redd.it/a-dogs-face-in-the-bedrock-texture-v0-9eso03pzp3ea1.png?width=640&crop=smart&auto=webp&s=497de80b56f32be4a5f848dd6ae2c1ce8b6f7ec7);
+    color: #ffffff;
+    text-align: center;
+}
+
+#subir {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #5bff00;
+}
